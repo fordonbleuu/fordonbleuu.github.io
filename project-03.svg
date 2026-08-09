@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="LuxEdu — offline-first Flutter app cover with schedule management, flashcards, and notifications">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171233"/>
+      <stop offset="1" stop-color="#2c2057"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.7" cy="0.2" r="0.8">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="phone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241c4e"/>
+      <stop offset="1" stop-color="#171233"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b2168"/>
+      <stop offset="1" stop-color="#1c1544"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect width="600" height="400" fill="url(#glow)"/>
+
+  <g fill="none" stroke="#3b2f74" stroke-width="1">
+    <path d="M0 80 H600"/><path d="M0 160 H600"/><path d="M0 240 H600"/><path d="M0 320 H600"/>
+    <path d="M120 0 V400"/><path d="M240 0 V400"/><path d="M360 0 V400"/><path d="M480 0 V400"/>
+  </g>
+
+  <g>
+    <rect x="188" y="34" width="104" height="212" rx="22" fill="#0d0a1e" stroke="#8b5cf6" stroke-width="3"/>
+    <rect x="230" y="52" width="28" height="6" rx="3" fill="#4c3d99"/>
+    <rect x="198" y="48" width="84" height="212" rx="14" fill="url(#screen)"/>
+
+    <rect x="206" y="58" width="30" height="6" rx="3" fill="#a78bfa"/>
+    <circle cx="270" cy="61" r="4" fill="none" stroke="#a78bfa" stroke-width="1.6"/>
+    <circle cx="272" cy="59" r="1.6" fill="#f0abfc"/>
+
+    <rect x="206" y="74" width="68" height="14" rx="4" fill="#332661"/>
+    <rect x="206" y="96" width="68" height="34" rx="6" fill="#3b2f7a"/>
+    <path d="M210 100h28v26h-28z" fill="none" stroke="#8b5cf6" stroke-width="1.4"/>
+    <path d="M213 118 l0-14 M221 118 l0-20 M229 118 l0-8 M237 118 l0-26 M245 118 l0-12" stroke="#6d5bd0" stroke-width="2.4"/>
+    <rect x="206" y="138" width="68" height="34" rx="6" fill="#3b2f7a"/>
+    <rect x="210" y="146" width="44" height="14" rx="4" fill="none" stroke="#a78bfa" stroke-width="1.4"/>
+    <path d="M212 153 l6 -5 l4 3 l8 -6 l8 6 l4 -3 l6 5" fill="none" stroke="#c4b5fd" stroke-width="1.4"/>
+    <rect x="214" y="162" width="26" height="4" rx="2" fill="#5b4aa8"/>
+    <rect x="206" y="180" width="68" height="34" rx="6" fill="#3b2f6f"/>
+    <circle cx="218" cy="197" r="7" fill="none" stroke="#a78bfa" stroke-width="1.6"/>
+    <path d="M218 190 v4 M218 200 v2" stroke="#c4b5fd" stroke-width="1.6"/>
+    <rect x="230" y="191" width="20" height="4" rx="2" fill="#5b4aa8"/>
+    <rect x="230" y="199" width="14" height="4" rx="2" fill="#43368a"/>
+    <rect x="206" y="222" width="44" height="10" rx="5" fill="#7c5cd6"/>
+    <path d="M214 227l6-6 3 3 6-8 7 11z" fill="#fff" opacity="0.55"/>
+    <rect x="206" y="240" width="68" height="6" rx="3" fill="#32275f"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#dcd3ff">
+    <rect x="352" y="66" width="168" height="40" rx="20" fill="rgba(139, 92, 246, 0.14)" stroke="rgba(167, 139, 250, 0.4)"/>
+    <text x="372" y="91" font-size="13" letter-spacing="1.5" fill="#c4b5fd">SCHEDULE</text>
+
+    <rect x="352" y="122" width="168" height="40" rx="20" fill="rgba(139, 92, 246, 0.14)" stroke="rgba(167, 139, 250, 0.4)"/>
+    <text x="372" y="147" font-size="13" letter-spacing="1.5" fill="#c4b5fd">FLASHCARDS</text>
+
+    <rect x="352" y="178" width="168" height="40" rx="20" fill="rgba(139, 92, 246, 0.14)" stroke="rgba(167, 139, 250, 0.4)"/>
+    <text x="372" y="203" font-size="13" letter-spacing="1.5" fill="#c4b5fd">NOTIFICATIONS</text>
+
+    <rect x="352" y="234" width="168" height="40" rx="20" fill="rgba(139, 92, 246, 0.14)" stroke="rgba(167, 139, 250, 0.4)"/>
+    <text x="372" y="259" font-size="13" letter-spacing="1.5" fill="#c4b5fd">100% OFFLINE</text>
+  </g>
+
+  <text x="352" y="310" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" letter-spacing="4" fill="#f4f4f2">LUX<text fill="#a78bfa">EDU</text></text>
+  <text x="352" y="330" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2.4" fill="#8f82c9">FLUTTER · OFFLINE-FIRST STUDY APP</text>
+
+  <text x="28" y="372" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2.2" fill="#7f74b8">SCHOOL SCHEDULES · FLASHCARDS · STUDY REMINDERS</text>
+</svg>

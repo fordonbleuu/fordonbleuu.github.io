@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Graph-theoretic evacuation route network for flood-prone barangays in Lala, Lanao del Norte">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1a23"/>
+      <stop offset="1" stop-color="#123545"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.32" cy="0.22" r="0.9">
+      <stop offset="0" stop-color="#2e7d8f" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#2e7d8f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="route" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e5b55e"/>
+      <stop offset="1" stop-color="#c8a24b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="300" fill="url(#bg)"/>
+  <rect width="600" height="300" fill="url(#glow)"/>
+
+  <g fill="none" stroke="#1d3c4c" stroke-width="1">
+    <path d="M0 60 H600"/><path d="M0 120 H600"/><path d="M0 180 H600"/><path d="M0 240 H600"/>
+    <path d="M100 0 V300"/><path d="M200 0 V300"/><path d="M300 0 V300"/><path d="M400 0 V300"/><path d="M500 0 V300"/>
+  </g>
+
+  <g fill="none" stroke="#2f7d8f" stroke-linecap="round" opacity="0.5">
+    <path d="M-20 278 C 120 246 230 268 330 240 S 530 212 620 248" stroke-width="2"/>
+    <path d="M-20 292 C 140 268, 260 292, 370 272 S 570 252, 640 284" stroke-width="1.5" opacity="0.7"/>
+    <path d="M-20 302 C 170 284, 320 306, 460 292 S 600 288, 660 300" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <g fill="none" stroke="#4a8ea3" stroke-width="1.4" opacity="0.4">
+    <path d="M120 120 L80 120"/>
+    <path d="M80 120 L130 205"/>
+    <path d="M130 205 L215 205"/>
+    <path d="M215 205 L215 150"/>
+    <path d="M215 150 L250 90"/>
+    <path d="M250 90 L340 70"/>
+    <path d="M340 70 L430 95"/>
+    <path d="M430 95 L500 60"/>
+    <path d="M500 60 L560 100"/>
+    <path d="M560 100 L540 175"/>
+    <path d="M540 175 L485 245"/>
+    <path d="M485 245 L400 235"/>
+    <path d="M400 235 L335 205"/>
+    <path d="M335 205 L305 250"/>
+    <path d="M305 250 L215 255"/>
+    <path d="M215 255 L120 225"/>
+    <path d="M120 225 L60 150"/>
+  </g>
+
+  <g fill="none" stroke="url(#route)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <path d="M60 150 C 90 175, 105 200, 130 205 S 190 210, 215 205 C 230 190, 240 165, 250 150 C 275 158, 305 170, 335 205 C 365 235, 420 235, 418 218 L 485 245 L 580 205"/>
+  </g>
+
+  <g>
+    <path d="M60 150 L 58.4 153.5 A 36 36 0 0 0 62 153.5 Z" fill="#16313d" stroke="#8fb6c4" stroke-width="2"/>
+    <circle cx="60" cy="150" r="6" fill="#c8a24b" stroke="#f4e8c8" stroke-width="1.4"/>
+    <path d="M580 205 L 578.2 208.8 A 40 40 0 0 0 582.5 208.8 Z" fill="#16313d" stroke="#e5b55e" stroke-width="2"/>
+    <path d="M580 197.5 l 5.2 9 h -10.4 z" fill="#e5b55e"/>
+    <circle cx="580" cy="205" r="3" fill="none" stroke="#f4e8c8" stroke-width="1.2"/>
+  </g>
+
+  <g fill="#16303c" stroke="#4a7a8e" stroke-width="1.6">
+    <circle cx="130" cy="205" r="6.5"/>
+    <circle cx="215" cy="205" r="6.5"/>
+    <circle cx="250" cy="90" r="6.5"/>
+    <circle cx="340" cy="70" r="6.5"/>
+    <circle cx="430" cy="95" r="6.5"/>
+    <circle cx="500" cy="60" r="6.5"/>
+    <circle cx="560" cy="100" r="6.5"/>
+    <circle cx="485" cy="245" r="6.5"/>
+    <circle cx="400" cy="235" r="6.5"/>
+    <circle cx="335" cy="205" r="6.5"/>
+    <circle cx="305" cy="250" r="6.5"/>
+    <circle cx="215" cy="255" r="6.5"/>
+    <circle cx="120" cy="225" r="6.5"/>
+  </g>
+
+  <text x="572" y="30" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11.5" letter-spacing="2.5" fill="#c8dbe2">EVACUATION ROUTE OPTIMIZATION</text>
+  <text x="572" y="48" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2" fill="#6fa8b5">GRAPH THEORY · NETWORK ANALYSIS · FLOOD RISK</text>
+
+  <text x="28" y="268" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2.2" fill="#7fa5ad">MUNICIPALITY OF LALA, LANAO DEL NORTE</text>
+  <text x="28" y="284" font-family="Arial, Helvetica, sans-serif" font-size="8.5" letter-spacing="1.8" fill="#5f8791">FLOOD-PRONE BARANGAYS · EVACUATION CENTERS</text>
+</svg>
